@@ -96,6 +96,14 @@ int main(void)
   HAL_CAN_Start(&hcan1);
   // Enable interrupt
   HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
+  // Set Transmit Parameters
+  pHeader.DLC = 1;
+  pHeader.IDE = CAN_ID_STD;
+  pHeader.RTR = CAN_RTR_DATA;
+  pHeader.StdId = 0x0155;
+
+
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
