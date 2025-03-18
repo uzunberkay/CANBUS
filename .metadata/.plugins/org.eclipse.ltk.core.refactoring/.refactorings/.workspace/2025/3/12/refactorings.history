@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;001_CAN&apos; to &apos;001_HAL_CAN_BUS_WITHOUT_FILTER&apos;" description="Rename resource &apos;001_CAN&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/001_CAN" name="001_HAL_CAN_BUS_WITHOUT_FILTER" stamp="1742307947371" updateReferences="true"/>
+</session>
