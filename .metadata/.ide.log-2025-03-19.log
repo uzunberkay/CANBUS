@@ -1,0 +1,37 @@
+2025-03-19 08:49:19,434 [INFO] Activator:176 - 
+
+
+2025-03-19 08:49:19,439 [INFO] Activator:177 - !SESSION log4j initialized
+2025-03-19 08:49:23,475 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-03-19 08:49:30,350 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809
+2025-03-19 08:49:30,367 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/mcu/
+2025-03-19 08:49:30,367 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/boardmanager/
+2025-03-19 08:49:30,369 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/mcufinder/images/
+2025-03-19 08:49:30,383 [INFO] ApiDb:250 - Set database path to: C:\Users\W10\.stmcufinder\plugins\mcufinder//mcu/
+2025-03-19 08:49:30,384 [INFO] DbMcusAds:125 - Set database path to: C:\Users\W10\.stmcufinder\plugins\mcufinder//mcu/
+2025-03-19 08:49:30,386 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\W10\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-03-19 08:49:30,494 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2025-03-19 08:49:30,568 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/mcu/
+2025-03-19 08:49:30,568 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/boardmanager/
+2025-03-19 08:49:30,568 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/mcufinder/images/
+2025-03-19 08:49:30,568 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\W10\.stmcufinder\plugins\mcufinder/ => C:\Users\W10\.stmcufinder\plugins\mcufinder
+2025-03-19 08:49:30,568 [INFO] ApiDb:250 - Set database path to: C:\Users\W10\.stmcufinder\plugins\mcufinder//mcu/
+2025-03-19 08:49:30,568 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\W10\.stmcufinder\plugins\mcufinder/ => C:\Users\W10\.stmcufinder\plugins\mcufinder
+2025-03-19 08:49:30,568 [INFO] DbMcusAds:125 - Set database path to: C:\Users\W10\.stmcufinder\plugins\mcufinder//mcu/
+2025-03-19 08:49:30,568 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\W10\.stmcufinder\plugins\mcufinder/ => C:\Users\W10\.stmcufinder\plugins\mcufinder
+2025-03-19 08:49:30,568 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\W10\.stmcufinder\plugins\mcufinder/ => C:\Users\W10\.stmcufinder\plugins\mcufinder
+2025-03-19 08:49:30,568 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\W10\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-03-19 08:49:30,637 [INFO] MainPanel:272 - HeapMemory: 268435456
+2025-03-19 08:49:30,761 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/mcu/
+2025-03-19 08:49:30,761 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/boardmanager/
+2025-03-19 08:49:30,761 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\/plugins/mcufinder/images/
+2025-03-19 08:49:30,761 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\W10\.stmcufinder\plugins\mcufinder/ => C:\Users\W10\.stmcufinder\plugins\mcufinder
+2025-03-19 08:49:30,762 [INFO] ApiDb:250 - Set database path to: C:\Users\W10\.stmcufinder\plugins\mcufinder//mcu/
+2025-03-19 08:49:30,762 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\W10\.stmcufinder\plugins\mcufinder/ => C:\Users\W10\.stmcufinder\plugins\mcufinder
+2025-03-19 08:49:30,762 [INFO] DbMcusAds:125 - Set database path to: C:\Users\W10\.stmcufinder\plugins\mcufinder//mcu/
+2025-03-19 08:49:30,762 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\W10\.stmcufinder\plugins\mcufinder/ => C:\Users\W10\.stmcufinder\plugins\mcufinder
+2025-03-19 08:49:30,762 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\W10\.stmcufinder\plugins\mcufinder/ => C:\Users\W10\.stmcufinder\plugins\mcufinder
+2025-03-19 08:49:30,762 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\W10\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-03-19 08:49:30,778 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809
+2025-03-19 08:49:30,780 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2025-03-19 08:49:30,781 [INFO] PluginManage:310 - Check plugin analytics
