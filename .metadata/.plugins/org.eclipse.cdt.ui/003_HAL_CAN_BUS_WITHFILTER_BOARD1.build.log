@@ -1,0 +1,10 @@
+11:04:15 **** Incremental Build of configuration Debug for project 003_HAL_CAN_BUS_WITHFILTER_BOARD1 ****
+make -j12 all 
+arm-none-eabi-size  003_HAL_CAN_BUS_WITHFILTER_BOARD1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9984	     12	   1708	  11704	   2db8	003_HAL_CAN_BUS_WITHFILTER_BOARD1.elf
+Finished building: default.size.stdout
+ 
+
+11:04:16 Build Finished. 0 errors, 0 warnings. (took 212ms)
+
