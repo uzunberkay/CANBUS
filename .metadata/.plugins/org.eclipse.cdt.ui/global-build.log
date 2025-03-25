@@ -211,3 +211,145 @@ arm-none-eabi-size  005_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
    9988	     12	   1708	  11708	   2dbc	005_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
 Finished building: default.size.stdout
  
+10:40:47 **** Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1 ****
+make -j12 all 
+arm-none-eabi-gcc -o "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\CANBUS\CANBUS\006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1.elf
+ 
+arm-none-eabi-size  006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1.elf 
+arm-none-eabi-objdump -h -S 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1.elf  > "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1.list"
+   text	   data	    bss	    dec	    hex	filename
+   9984	     12	   1708	  11704	   2db8	006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1.elf
+Finished building: default.size.stdout
+ 
+Finished building: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD1.list
+ 
+10:40:49 **** Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-gcc -o "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\CANBUS\CANBUS\006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+ 
+arm-none-eabi-size  006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf 
+arm-none-eabi-objdump -h -S 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf  > "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list"
+   text	   data	    bss	    dec	    hex	filename
+   9988	     12	   1708	  11708	   2dbc	006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list
+ 
+10:41:48 **** Incremental Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-gcc -o "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\CANBUS\CANBUS\006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+ 
+arm-none-eabi-size  006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf 
+arm-none-eabi-objdump -h -S 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf  > "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list"
+   text	   data	    bss	    dec	    hex	filename
+   9988	     12	   1708	  11708	   2dbc	006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list
+ 
+10:42:38 **** Incremental Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\CANBUS\CANBUS\006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+ 
+arm-none-eabi-size  006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf 
+arm-none-eabi-objdump -h -S 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf  > "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list"
+   text	   data	    bss	    dec	    hex	filename
+   9992	     12	   1708	  11712	   2dc0	006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list
+ 
+10:42:49 **** Incremental Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-size  006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9992	     12	   1708	  11712	   2dc0	006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+Finished building: default.size.stdout
+ 
+10:46:42 **** Incremental Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:128:24: error: 'hcan' undeclared (first use in this function); did you mean 'hcan1'?
+  128 |   HAL_CAN_ConfigFilter(hcan, &sFilterConfig)
+      |                        ^~~~
+      |                        hcan1
+../Core/Src/main.c:128:24: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:128:45: error: expected ';' before 'while'
+  128 |   HAL_CAN_ConfigFilter(hcan, &sFilterConfig)
+      |                                             ^
+      |                                             ;
+......
+  134 |   while (1)
+      |   ~~~~~                                      
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+10:46:47 **** Incremental Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:128:24: error: 'hcan' undeclared (first use in this function); did you mean 'hcan1'?
+  128 |   HAL_CAN_ConfigFilter(hcan, &sFilterConfig);
+      |                        ^~~~
+      |                        hcan1
+../Core/Src/main.c:128:24: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+10:46:52 **** Incremental Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:128:24: error: incompatible type for argument 1 of 'HAL_CAN_ConfigFilter'
+  128 |   HAL_CAN_ConfigFilter(hcan1, &sFilterConfig);
+      |                        ^~~~~
+      |                        |
+      |                        CAN_HandleTypeDef
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:299,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h:671:59: note: expected 'CAN_HandleTypeDef *' but argument is of type 'CAN_HandleTypeDef'
+  671 | HAL_StatusTypeDef HAL_CAN_ConfigFilter(CAN_HandleTypeDef *hcan, const CAN_FilterTypeDef *sFilterConfig);
+      |                                        ~~~~~~~~~~~~~~~~~~~^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+10:46:55 **** Incremental Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\CANBUS\CANBUS\006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+ 
+arm-none-eabi-size  006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf 
+arm-none-eabi-objdump -h -S 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf  > "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list"
+   text	   data	    bss	    dec	    hex	filename
+  10012	     12	   1708	  11732	   2dd4	006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list
+ 
+10:48:51 **** Incremental Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\CANBUS\CANBUS\006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+ 
+arm-none-eabi-size  006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf 
+arm-none-eabi-objdump -h -S 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf  > "006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list"
+   text	   data	    bss	    dec	    hex	filename
+  10012	     12	   1708	  11732	   2dd4	006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.list
+ 
+10:51:43 **** Incremental Build of configuration Debug for project 006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-size  006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10012	     12	   1708	  11732	   2dd4	006_HAL_CAN_BUS_IDLIST_FILTER_BOARD2.elf
+Finished building: default.size.stdout
+ 
